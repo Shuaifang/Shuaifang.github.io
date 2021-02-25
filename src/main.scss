@@ -88,6 +88,7 @@ a {
     padding: 25px 30px;
   }
   @media print {
+    padding: 0px 50px;
     color: #000;
     background-color: #fff;
   }
@@ -252,6 +253,10 @@ a {
     height: 32px;
     margin: 10px auto 5px;
     overflow: hidden;
+
+    // @media print {
+    //   margin: 0px auto 5px;
+    // }
   }
 
   .section-bd {
@@ -267,6 +272,12 @@ a {
     .item {
       margin-bottom: 20px;
     }
+  }
+  .fl {
+    float: left;
+  }
+  .fr {
+    float: right;
   }
 
   .section-title-l,
